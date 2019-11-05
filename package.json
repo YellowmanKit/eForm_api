@@ -1,7 +1,7 @@
 {
-  "name": "eform",
+  "name": "eForm",
   "version": "1.0.0",
-  "description": "API server for efrom application",
+  "description": "API server for eForm application",
   "main": "dist",
   "scripts": {
     "dev": "nodemon --exec babel-node src",
@@ -19,7 +19,9 @@
   },
   "dependencies": {
     "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mysql": "^2.17.1"
+    "mysql": "^2.17.1",
+    "randomstring": "^1.1.5"
   }
 }
